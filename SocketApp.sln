@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleServer", "ConsoleServer\ConsoleServer.csproj", "{2A74F834-1F8F-458E-BA6D-8CBDEE9C8398}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleServer", "ConsoleServer\ConsoleServer.csproj", "{2A74F834-1F8F-458E-BA6D-8CBDEE9C8398}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{DFEDE730-8779-45B0-ACA2-83F0101C4DE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{DFEDE730-8779-45B0-ACA2-83F0101C4DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPConsoleChat", "TCPConsoleChat\TCPConsoleChat.csproj", "{B7762701-4F66-4C93-8616-0AD81353DF0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPConsoleLib", "TCPConsoleLib\TCPConsoleLib.csproj", "{C2FAF7B5-375B-4350-922D-FB26F0AAD5E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPConsoleChatClient", "TCPConsoleChatClient\TCPConsoleChatClient.csproj", "{617900B5-B9C5-43A3-89B0-4061EFA651CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{DFEDE730-8779-45B0-ACA2-83F0101C4DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFEDE730-8779-45B0-ACA2-83F0101C4DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFEDE730-8779-45B0-ACA2-83F0101C4DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7762701-4F66-4C93-8616-0AD81353DF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7762701-4F66-4C93-8616-0AD81353DF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7762701-4F66-4C93-8616-0AD81353DF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7762701-4F66-4C93-8616-0AD81353DF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2FAF7B5-375B-4350-922D-FB26F0AAD5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2FAF7B5-375B-4350-922D-FB26F0AAD5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2FAF7B5-375B-4350-922D-FB26F0AAD5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FAF7B5-375B-4350-922D-FB26F0AAD5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{617900B5-B9C5-43A3-89B0-4061EFA651CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617900B5-B9C5-43A3-89B0-4061EFA651CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617900B5-B9C5-43A3-89B0-4061EFA651CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617900B5-B9C5-43A3-89B0-4061EFA651CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
